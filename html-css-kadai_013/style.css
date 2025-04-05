@@ -140,18 +140,3 @@ p {
     display: none;
   }
 }
-
-#menu-sp {
-  display: none; /* デフォルトでは非表示にしておく */
-}
-
-@media only screen and (max-width: 768px) {
-  #nav-pc {
-  display: none; /* モバイルではPC用ナビゲーションは非表示 */
-}
-  #menu-sp {
-  display: block; /* モバイルでハンバーガーメニューを表示 */
-  cursor: pointer; /* ユーザーにクリック可能であることを示す */
-}
-  /* 必要に応じてスタイルを追加 */
-}
