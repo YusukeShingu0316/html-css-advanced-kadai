@@ -77,7 +77,7 @@ p {
   }
 
   #menu-sp {
-    display: none;
+    display: block;
     float: right;
     padding: 0;
   }
@@ -94,7 +94,7 @@ p {
   }
 
   #close {
-      position: adsolute;
+      position: absolute;
       top: 20px;
       right: 20px;
     }
